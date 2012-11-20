@@ -1,0 +1,34 @@
+en:
+  task:
+    attributes:
+      id:                       id
+      name:                     name
+      state:                    state
+      kind:                     kind
+
+  validation:
+    errors:
+      nil:                      "%{attribute} must not be nil"
+      blank:                    "%{attribute} must not be blank"
+      not_nil:                  "%{attribute} must be nil"
+      not_blank:                "%{attribute} must be blank"
+      invalid:                  "%{attribute} has an invalid format"
+      inclusion:                "%{attribute} must be one of %{set}"
+      accepted:                 "%{attribute} is not accepted"
+      confirmation:             "%{attribute} does not match the confirmation"
+      length_between:           "%{attribute} must be between %{min} and %{max} characters long"
+      too_long:                 "%{attribute} must be at most %{maximum} characters long"
+      too_short:                "%{attribute} must be at least %{minimum} characters long"
+      wrong_length:             "%{attribute} must be %{length} characters long"
+      not_a_number:             "%{attribute} must be a number"
+      not_an_integer:           "%{attribute} must be an integer"
+      greater_than:             "%{attribute} must be greater than %{minimum}"
+      greater_than_or_equal_to: "%{attribute} must be greater than or equal to %{minimum}"
+      equal_to:                 "%{attribute} must be equal to %{expected}"
+      not_equal_to:             "%{attribute} must not be equal to %{value}"
+      less_than:                "%{attribute} must be less than %{maximum}"
+      less_than_or_equal_to:    "%{attribute} must be less than or equal to %{maximum}"
+      value_between:            "%{attribute} must be between %{minimum} and %{maximum}"
+      not_unique:               "%{attribute} is already taken"
+      primitive:                "%{attribute} must be of type %{value}"
+
